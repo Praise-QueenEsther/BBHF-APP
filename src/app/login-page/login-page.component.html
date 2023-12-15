@@ -1,0 +1,59 @@
+<!-- <div class="genCon"> -->
+<div class="container genCon">
+    <div class=" center-container secondCon">
+        <div class="formLogo">
+            <img src="assets/blessed-logo.jpg" alt="">
+        </div>
+        <div class="secCon">
+                <div class="thirdCon">
+            
+                    <form [formGroup]="myForm">
+                    
+                        <div class="justForm">
+                            <div class="formTitle">
+                                <div>
+                                    <span class="titleLarge">Log into your account</span>
+                                </div>
+                                <div>
+                                    <span class="titleSmall">Welcome back! please enter your email</span>
+                                </div>
+                            </div>
+                            <div class="justInput">
+                                <div class="p-field inputPart">
+                                    <label for="emailName" class="inputLab">Email</label>
+                                    <div class="p-inputgroup">
+                                    <input id="emailName" type="text" pInputText formControlName="emailName" placeholder="Enter email"/>
+                                    </div>
+                                    <span *ngIf="myForm.controls['emailName'].hasError('required') && myForm.controls['emailName'].touched && !submitted" class="required pull-right spanText">Please enter email</span>
+                                    <span *ngIf="myForm.controls['emailName'].hasError('pattern') && myForm.controls['emailName'].touched" class="required spanText">Invalid Email</span>
+                                </div>
+                                <div class="p-field inputPart">
+                                    <label for="passwordName" class="inputLab">Password</label>
+                                <div class="p-inputgroup inputGroup">
+                                <input id="passwordName" type="password" pInputText formControlName="passwordName" placeholder="Enter passwords" />
+                                
+                            </div>
+                            <span *ngIf="myForm.controls['passwordName'].hasError('required') && myForm.controls['passwordName'].touched && !submitted" class="required pull-right spanText">Please enter password</span>
+                            <span *ngIf="myForm.controls['passwordName'].hasError('pattern') && myForm.controls['passwordName'].touched" class="spanText required">Password must contain at least one number,
+                                atleast one lowercase letter, atleast one uppercase letter and minimum length of 6 characters.
+                            </span>
+                            
+                            </div>
+                        </div>
+                        <div class="btn-lastword">
+                            <div class="btnCon">
+                                    <button type="submit" pButton label="Submit">Login</button>
+                        
+                                </div>
+                            <div class="lastWord">
+                                    <p class="">Don't have an account? <span class="spanSignin">Sign up</span></p>
+                            </div>
+                        </div>
+                    </div>
+                
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+

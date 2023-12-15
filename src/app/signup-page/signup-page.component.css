@@ -1,0 +1,300 @@
+.genCon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    background: #FFF;
+    height: 100vh;
+}
+
+.secondCon{
+    display: flex;
+    flex-direction: column;
+    max-height: 460px;
+    justify-content: center;
+    align-items: center;
+    max-width: 1216px;
+    gap: 24px;
+}
+
+.secCon{
+    display: flex;
+    height: 388px;
+    max-width: 1216px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.thirdCon{
+    display: flex;
+    max-width: 360px;
+    height: 394px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    border-radius: 12px;
+    background: var(--base-white, #FFF);
+}
+
+
+.inputLab{
+    font-family: Source Sans Pro;
+    color: var(--grey-700, #344054);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+}
+.inputPart{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    width: 100%;
+}
+
+
+.formLogo{
+    width: 121px;
+    height: 48px;
+}
+
+.formTitle{
+    display: flex;
+    height: 70px;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    text-align: center;
+    width: 360px;
+}
+
+.titleLarge{
+    color: var(--grey-700, #344054);
+    font-family: Source Sans Pro;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%;
+    height: 38px;
+}
+
+.titleSmall{
+    color: var(--grey-500, #667085);
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    height: 24px;
+}
+
+.inputPart{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    align-self: stretch;
+    height: 74px;
+}
+.p-inputgroup{
+    display: flex;
+    padding: 12px 16px;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid var(--grey-300, #D0D5DD);
+    background: var(--White, #FFF);
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+
+}
+
+
+
+.p-inputgroup input{
+    flex: 1 0 0;
+    color: var(--gray-500, #667085);
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    border: none;
+}
+
+.justForm{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+    height: 524px;
+    width: 360px;
+    
+}
+
+.justInput{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 360px;
+}
+
+.required{
+    font-size: 13px;
+    font-family: 'Source Sans Pro';
+    color: red;
+    transform: translateY(-8px);
+}
+
+.selectCover{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    align-self: stretch;
+}
+
+.selectCover label{
+    color: var(--grey-700, #344054);
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px
+}
+
+.selectDrop{
+    display: flex;
+    padding: 12px 16px;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid var(--grey-300, #D0D5DD);
+    background: var(--White, #FFF);
+
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+
+.theDropDown{
+    flex: 1 0 0;
+    color: var(--grey-500, #667085);
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    
+    cursor: pointer;
+    border: none;
+}
+
+
+.btn-lastword{
+    display: flex;
+    width: 360px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    height: 96px;
+}
+
+.btnCon button{
+    display: flex;
+    width: 360px;
+    height: 48px;
+    padding: 0px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 6px;
+    background: #C41F3F;
+    
+}
+
+.btnCon button{
+    color: #FFF;
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; 
+    text-transform: capitalize;
+    background: #C41F3F;
+    border: none;
+
+}
+
+.lastWord{
+    color: var(--grey-500, #667085);
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: center;
+   
+}
+
+.spanSignin{
+    color: #C41F3F;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%
+}
+
+@media only screen and (max-width: 320px) {
+    .genCon {
+        width: 100%; 
+        height: auto; 
+        gap: 12px; 
+    }
+
+    .secondCon {
+        width: 100%; 
+        max-height: none; 
+        /* padding: 0 8px;  */
+    }
+
+    .secCon {
+        width: 100%; 
+        max-width: none; 
+    }
+
+    .thirdCon {
+        max-width: 100%; 
+    }
+
+    .justForm,
+    .btn-lastword {
+        width: 100%; 
+    }
+
+    .formTitle {
+        width: 100%; 
+        
+    }
+
+    .inputPart,
+    .btnCon {
+        width: 100%; 
+    }
+
+    .thirdCon {
+        width: 100%; 
+        /* padding: 0 8px;  */
+    }
+
+   
+}
+
+
+
+
+

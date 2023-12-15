@@ -1,0 +1,90 @@
+<div class="genCon">
+    <div class="container genCon">
+        <div class=" center-container secondCon">
+        <div class="formLogo">
+            <img src="assets/blessed-logo.jpg" alt="">
+        </div>
+        <div class="secCon">
+    <div class="thirdCon">
+            
+        <form [formGroup]="myForm">
+            <div class="justForm">
+                    <div class="formTitle">
+                        <div>
+                            <span class="titleLarge">Create an account</span>
+                        </div>
+                    </div>
+                <div class="justInput">
+                        <div class="p-field inputPart">
+                            <label for="firstName" class="inputLab">First Name</label>
+                            <div class="p-inputgroup">
+                            <input id="firstName" type="text" pInputText formControlName="firstName" placeholder="Enter your first name"/>
+                            </div>
+                            <span *ngIf="myForm.controls['firstName'].hasError('required') && myForm.controls['firstName'].touched && !submitted" class="required pull-right spanText">Please enter your first name</span>
+                        </div>
+                        <div class="p-field inputPart">
+                            <label for="lastName" class="inputLab">Last Name</label>
+                            <div class="p-inputgroup">
+                            <input id="lastName" type="text" pInputText formControlName="lastName" placeholder="Enter your last name"/>
+                            </div>
+                            <span *ngIf="myForm.controls['lastName'].hasError('required') && myForm.controls['lastName'].touched && !submitted" class="required pull-right spanText">Please enter your last name</span>
+                        </div>
+                        <div class="p-field inputPart">
+                            <label for="emailName" class="inputLab">Email</label>
+                                <div class="p-inputgroup">
+                                <input id="emailName" type="email" pInputText formControlName="emailName" placeholder="Enter your email"/>
+                                </div>
+                                <span *ngIf="myForm.controls['emailName'].hasError('required') && myForm.controls['emailName'].touched && !submitted" class="required pull-right spanText">Please enter email</span>
+                                <span *ngIf="myForm.controls['emailName'].hasError('pattern') && myForm.controls['emailName'].touched" class="required spanText">Invalid Email</span>
+                        </div>
+
+                        <div class="p-field inputPart">
+                            <label for="firstName" class="inputLab">Phone number</label>
+                            <div class="p-inputgroup">
+                            <input id="phoneNumber" type="text" pInputText formControlName="phoneNumber" placeholder="Enter your phone number"/>
+                            </div>
+                            <span *ngIf="myForm.controls['phoneNumber'].hasError('required') && myForm.controls['phoneNumber'].touched && !submitted" class="required pull-right spanText">Please enter your phone number</span>
+                        </div>
+
+                                            <!-- <div class="selectCover">
+                                                <label for="state">State</label>
+                                                <div class="selectDrop">
+                                                <p-dropdown id="state"[options]="stateOptions" placeholder="Select state" class="theDropDown"></p-dropdown>
+                                                </div>
+                                            </div> -->
+
+                        <div class="selectCover">
+                                <label for="state">State</label>
+                                <div class="selectDrop">
+                                <select id="state" class="theDropDown">
+                                    <option value="" disabled selected >Select state</option>
+                                </select>
+                                
+                                </div>
+                        </div>
+                                            
+                        <div class="selectCover">
+                                <label for="state">Type of registration</label>
+                                <div class="selectDrop">
+                                <select id="state" class="theDropDown">
+                                    <option value="" disabled selected >Volunteers</option>
+                                </select>
+                                </div>
+                        </div>
+                    </div>
+                        <div class="btn-lastword">
+                            <div class="btnCon">
+                                    <button type="submit" pButton label="Submit">Join Us</button>
+                            </div>
+                            <div class="lastWord">
+                                    <p class="">Already have an account? <span class="spanSignin">Login</span></p>
+                            </div>
+                        </div>
+                </div> 
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+    

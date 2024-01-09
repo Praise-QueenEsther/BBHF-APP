@@ -1,0 +1,238 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.navbar {
+  padding: 0 112px;
+  height: 80px;
+  background-color: #FFF;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container-fluid{
+  display: flex;
+  
+}
+
+/* .navbarCon {
+  display: flex;
+  height: 80px;
+  padding: 0px 112px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: yellow;
+} */
+
+/* .navbarList {
+  display: flex !important;
+  justify-content: flex-end !important;
+  align-items: center !important;
+  flex-direction: row !important;
+  gap: 40px;
+  width: 444px;
+  height: 48px;
+  background-color: red;
+} */
+
+/* .navbarListLink ul {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-direction: row !important;
+  gap: 32px;
+  width: 299px;
+  height: 18px;
+  background-color: aqua;
+  list-style: none;
+  margin-top: 15px;
+} */
+
+
+
+/* Media query for smaller screens */
+/* .navbarListLink ul li a{
+  color: var(--Grey-700, #344054);
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Source Sans Pro;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 18px;
+text-decoration: none;
+} */
+
+
+
+/* .navbar-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+} */
+
+.navCon {
+  /* display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+  gap: 40px;
+  width: 444px;
+  height: 48px;
+  background-color: red; */
+  
+}
+
+.navbar-nav-container {
+  /* display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+  gap: 40px;
+  width: 444px;
+  height: 48px;
+  background-color: red; */
+}
+
+/* .navbar-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+  width: 299px;
+  height: 18px;
+  list-style: none;
+  background-color: yellow;
+} */
+
+
+.navbar-nav li a{
+color: var(--Grey-700, #344054);
+text-align: center;
+
+font-family: Source Sans Pro;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 18px;
+text-decoration: none;
+}
+
+.navbarButton{
+  display: flex;
+  height: 48px;
+  width: 105px;
+  padding: 0px 14px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 6px;
+  background: #C41F3F;
+  font-family: Source Sans Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; 
+  color: #FFF;
+  text-transform: capitalize;
+} 
+
+ .navbarButton button{
+  height: 48px;
+  display: flex;
+  align-items: center;
+  color: #FFF;
+  /* width: 57px; */
+  font-family: Source Sans Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; 
+  text-transform: capitalize;
+} 
+
+.btn{
+  height: 48px;
+  display: flex;
+  align-items: center;
+  color: #FFF;
+  font-family: Source Sans Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;  
+  text-transform: capitalize;
+} 
+
+.navbarButton {
+  margin-left: 40px; 
+}
+
+
+
+@media (max-width: 768px) {
+  /* .navbar-brand {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navbar-nav li {
+    margin: 0; 
+  } */
+
+  .navbar {
+    padding: 0 40px;
+    height: 80px;
+    background-color: #FFF;
+  }
+
+
+  .navbar-nav li a{
+    text-align: start;
+    /* background-color: red; */
+    padding: 15px;
+    
+    }
+
+    .navbarButton{
+      /* display: flex;
+      height: 48px;
+      width: 105px; */
+      /* padding: 0px 14px; */
+      /* justify-content: center; */
+      /* justify-content: flex-start; */
+      display: flex;
+      /* justify-content: flex-start; */
+      /* margin-right: 200px; */
+      transform: translateX(-30px);
+      background: #C41F3F;
+      /* background-color: orange; */
+      margin-top: 20px;
+      /* align-items: center;
+      gap: 8px;
+      border-radius: 6px;
+      
+      font-family: Source Sans Pro;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 28px; 
+      color: #FFF;
+      text-transform: capitalize; */
+    } 
+
+    .navColor{
+      background-color: #FFF;
+    }
+}

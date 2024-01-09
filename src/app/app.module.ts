@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { ReactiveFormsModule } from '@angular/forms';  // Import ReactiveFormsModule
 
@@ -8,22 +8,35 @@ import { InputTextModule } from 'primeng/inputtext';
 import { SignupPageComponent } from './signup-page/signup-page.component';
 import { LoginPageComponent } from './login-page/login-page.component';
 import { DropdownModule } from 'primeng/dropdown';
+import { MenubarModule } from 'primeng/menubar';
+import { MenuModule } from 'primeng/menu'
+import { NavbarComponent } from './navbar/navbar.component';
+import { HomePageComponent } from './main-pages/home-page/home-page.component';
+import { ServicePageComponent } from './main-pages/service-page/service-page.component';
+import { ContactUsPageComponent } from './main-pages/contact-us-page/contact-us-page.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     SignupPageComponent,
-    LoginPageComponent
+    LoginPageComponent,
+    NavbarComponent,
+    HomePageComponent,
+    ServicePageComponent,
+    ContactUsPageComponent 
   ],
   imports: [
     BrowserModule,
     ReactiveFormsModule, 
     CommonModule,
     InputTextModule,
-    DropdownModule
+    DropdownModule,
+    MenubarModule,
+    MenuModule
     
   ],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

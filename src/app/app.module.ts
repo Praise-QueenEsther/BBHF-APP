@@ -14,6 +14,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HomePageComponent } from './main-pages/home-page/home-page.component';
 import { ServicePageComponent } from './main-pages/service-page/service-page.component';
 import { ContactUsPageComponent } from './main-pages/contact-us-page/contact-us-page.component';
+import { ModalsComponent } from './main-pages/modals/modals.component';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { ContactUsPageComponent } from './main-pages/contact-us-page/contact-us-
     NavbarComponent,
     HomePageComponent,
     ServicePageComponent,
-    ContactUsPageComponent 
+    ContactUsPageComponent,
+    ModalsComponent
   ],
   imports: [
     BrowserModule,

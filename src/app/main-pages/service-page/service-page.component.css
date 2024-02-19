@@ -185,6 +185,7 @@ text-transform: capitalize;
   flex-direction: column;
   align-items: center;
   width: 100vw;
+  max-width: 100%;
   align-self: stretch;
   background: var(--White, #FFF);
   height: 478px;

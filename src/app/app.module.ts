@@ -15,6 +15,10 @@ import { HomePageComponent } from './main-pages/home-page/home-page.component';
 import { ServicePageComponent } from './main-pages/service-page/service-page.component';
 import { ContactUsPageComponent } from './main-pages/contact-us-page/contact-us-page.component';
 import { ModalsComponent } from './main-pages/modals/modals.component';
+import { BlogPageComponent } from './main-pages/blog-page/blog-page.component';
+import { PaginationsComponent } from './main-pages/paginations/paginations.component';
+import { BlogDetailsComponent } from './main-pages/blog-details/blog-details.component';
+// import { NgxPaginationModule } from 'ngx-pagination';
 
 
 @NgModule({
@@ -26,7 +30,10 @@ import { ModalsComponent } from './main-pages/modals/modals.component';
     HomePageComponent,
     ServicePageComponent,
     ContactUsPageComponent,
-    ModalsComponent
+    ModalsComponent,
+    BlogPageComponent,
+    PaginationsComponent,
+    BlogDetailsComponent
   ],
   imports: [
     BrowserModule,
@@ -35,8 +42,7 @@ import { ModalsComponent } from './main-pages/modals/modals.component';
     InputTextModule,
     DropdownModule,
     MenubarModule,
-    MenuModule
-    
+    MenuModule, 
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   bootstrap: [AppComponent]

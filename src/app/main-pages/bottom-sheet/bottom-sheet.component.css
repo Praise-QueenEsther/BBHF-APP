@@ -1,0 +1,33 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.custom-bottom-sheet {
+    width: 480px; 
+    height: 403px;
+    padding: 32px 24px 40px 24px;
+    gap: 40px;
+    border-radius: 12px;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    background: white;
+    box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Green check icon container */
+.icon-container {
+    width: 80px;
+    height: 80px;
+}
+
+
+.icon-container {
+    width: 80px;
+    height: 80px;
+    background: #2BC300; /* Corrected background color */
+    border-radius: 50%;
+}

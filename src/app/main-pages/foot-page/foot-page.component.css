@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+ .footer-con{
+  
+/* height:337px;
+padding: 64px 112px 48px 112px;
+gap: 64px;
+opacity: 0px;
+background: #FCE9ED; */
+
+/* Footer */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 64px 112px 48px;
+gap: 64px;
+
+/* width: 1440px; */
+height: 337px;
+
+background: #FCE9ED;
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+ }
+ 
+ .footer-firstSec{
+    /* width: Fill (1,216px)px; */
+/* height:104px;
+padding: 0px 32px 0px 32px;
+gap: 48px;
+opacity: 0px; */
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+/* justify-items: space-between; */
+
+padding:0px 32px;
+gap: 48px;
+
+/* width: 90vw; */
+height: 104px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+background-color: green;
+
+ }
+
+ .footer-firstSecSub{
+    /* width: Fill (1,152px)px; */
+    display: flex;
+height: 104px;
+gap: 32px;
+opacity: 0px;
+
+ }
+
+ .footer-firstSecSubCon{
+    /* width:760px; */
+    display: flex;
+    flex-direction: column;
+height:104px;
+gap: 32px;
+opacity: 0px;
+background-color: blue;
+
+ }
+
+ .footer-logo img{
+    width: 121px;
+height: 48px;
+gap: 0px;
+opacity: 0px;
+
+ }
+
+ .footer-links{
+    display: flex;
+    /* width: Fill (760px)px; */
+height: 24px;
+gap: 32px;
+opacity: 0px;
+
+ }
+
+ .footer-firstSecSubConInput{
+    /* width: Fixed (360px)px; */
+    /* display: flex;
+    flex-direction: column;
+height: 85px;
+gap: 16px;
+opacity: 0px; */
+/* Newsletter */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+/* width: 360px; */
+height: 85px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+background-color: yellow;
+
+ }
+
+ .input-button{
+    /* width: Fill (360px)px; */
+    display: flex;
+height:48px;
+gap: 16px;
+opacity: 0px;
+
+ }
+
+.title-inputBtn{
+/* width: 360px; */
+height: 21px;
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 150%;
+color: #344054;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+ .inputField input{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 6px;
+
+/* width: 209px; */
+height: 44px;
+/* flex: none; */
+border-radius: 4px ;
+border: none;
+
+/* order: 0; */
+/* flex-grow: 1; */
+ }
+
+ .inputField::placeholder{
+    /* Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 181px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+ }
+
+ .footerBtn button{
+    width:135px;
+height:48px;
+padding: 0px 24px 0px 24px;
+gap: 8px;
+border-radius:6px;
+opacity: 0px;
+background: #C41F3F;
+border: none;
+color: #fff;
+
+ }
+
+ .copywriteCon{
+    /* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px 32px;
+gap: 32px;
+
+/* width: 1216px; */
+height: 57px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+background-color: red;
+ }
+ 

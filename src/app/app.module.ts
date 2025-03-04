@@ -1,7 +1,8 @@
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { ReactiveFormsModule } from '@angular/forms';  // Import ReactiveFormsModule
-
+// import { RouterModule } from '@angular/router;
+import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { CommonModule } from '@angular/common';
 import { InputTextModule } from 'primeng/inputtext';
@@ -18,6 +19,8 @@ import { ModalsComponent } from './main-pages/modals/modals.component';
 import { BlogPageComponent } from './main-pages/blog-page/blog-page.component';
 import { PaginationsComponent } from './main-pages/paginations/paginations.component';
 import { BlogDetailsComponent } from './main-pages/blog-details/blog-details.component';
+import { AboutPageComponent } from './main-pages/about-page/about-page.component';
+import { FootPageComponent } from './main-pages/foot-page/foot-page.component';
 // import { NgxPaginationModule } from 'ngx-pagination';
 
 
@@ -33,7 +36,9 @@ import { BlogDetailsComponent } from './main-pages/blog-details/blog-details.com
     ModalsComponent,
     BlogPageComponent,
     PaginationsComponent,
-    BlogDetailsComponent
+    BlogDetailsComponent,
+    AboutPageComponent,
+    FootPageComponent
   ],
   imports: [
     BrowserModule,
@@ -43,7 +48,11 @@ import { BlogDetailsComponent } from './main-pages/blog-details/blog-details.com
     DropdownModule,
     MenubarModule,
     MenuModule, 
+    RouterModule
+    // RouterModule
   ],
+
+  exports:[RouterModule],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   bootstrap: [AppComponent]
 })
